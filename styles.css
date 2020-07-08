@@ -69,39 +69,35 @@ margin-top: 4%;
 /*Media Query Section*/
 @media(max-width: 900px)
 {
-	h1{
-		font-size: 6rem;
-	}
+h1{
+font-size: 6rem;
+}
 
-	.img-container{
-		margin-bottom: 3.8rem;
-	}
+.img-container{
+margin-bottom: 5%;
+}
 }
 
 
 @media(max-width: 600px)
 {
-	.image-dice{
-		width: 14rem;
-	}
-
-	.img-container{
-		margin-bottom: 2rem;
-	}
+.image-dice{
+width: 40%;
+}
 }
 
 
 @media(max-width: 555px)
 {
-	h1{
-		font-size: 5.8rem;
-	}
+h1{
+font-size: 5.8rem;
+}	
+}
 
-	.image-dice{
-		width: 12rem;
-	}
 
-	.img-container{
-		margin-bottom: 4rem;
-	}	
+@media(max-width: 499px)
+{
+h1{
+font-size: 4.5rem;
+}	
 }
